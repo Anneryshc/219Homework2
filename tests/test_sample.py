@@ -1,5 +1,5 @@
-from app import *
+from calculator import add 
 
-def test_answer():
-    assert inc(3) == 4
-
+def test_addition():
+    '''Test that addition function works '''    
+    assert add(2,2) == 4
